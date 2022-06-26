@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{531d99b3-b280-44c7-be32-d9613dd2010f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Definitions">
+      <UniqueIdentifier>{f2a0eee9-4653-491c-a4ab-bc005cfe096a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct2D">
+      <UniqueIdentifier>{02a460de-fc00-43ae-9f29-ac2f28c6f53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{5ae75407-db40-468d-b813-c6ad39dcc57a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct2D\Direct2D.cpp">
+      <Filter>Direct2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Definitions\Functions.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct2D\Direct2D.h">
+      <Filter>Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions\Definitions.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions\Utilities.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
